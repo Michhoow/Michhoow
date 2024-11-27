@@ -38,5 +38,3 @@ Desarrollado en **C#**, este minijuego permite seleccionar de forma aleatoria a 
 > "El conocimiento es una paradoja: cuanto más sabemos, más conscientes somos de la ignorancia que aún nos rodea." 🚀
 
 ---
-
-### ¡Gracias por visitar mi perfil! 😄
