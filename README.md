@@ -41,7 +41,7 @@ Mi objetivo es cambiar al mundo utilizando la tecnología, desafiando el status 
 
 ## Proyectos destacados:
 ### 🎮 **Minijuego de Selección Aleatoria en Consola (C#)**
-Desarrollado en **C#** consola con una interfaz mejorada, este minijuego permite seleccionar de forma aleatoria a estudiantes para asignarles roles como **Desarrollador** o **Facilitador**. Además, registra la fecha y hora de la selección y asegura que no se repitan las personas previamente seleccionadas.
+Desarrollado en **C#** con una interfaz mejorada, este minijuego permite seleccionar de forma aleatoria a estudiantes para asignarles roles como **Desarrollador** o **Facilitador**. Además, registra la fecha y hora de la selección y asegura que no se repitan las personas previamente seleccionadas.
 
 
 ---
