@@ -41,10 +41,24 @@ Mi objetivo es cambiar al mundo utilizando la tecnología, desafiando el status 
 
 ## Proyectos destacados:
 ### 🎮 **Minijuego de Selección Aleatoria en Consola (C#)**
-Desarrollado en **C#**, este minijuego permite seleccionar de forma aleatoria a estudiantes para asignarles roles como **Desarrollador** o **Facilitador**. Además, registra la fecha y hora de la selección y asegura que no se repitan las personas previamente seleccionadas.
+Desarrollado en **C#** consola con una interfaz mejorada, este minijuego permite seleccionar de forma aleatoria a estudiantes para asignarles roles como **Desarrollador** o **Facilitador**. Además, registra la fecha y hora de la selección y asegura que no se repitan las personas previamente seleccionadas.
+
 
 ---
 
+
+## 📬 Contacto
+
+¡Próximamente disponible! 🔧 *En construcción...*
+
+- **Correo:** Working... 🔧  
+- **LinkedIn:** Working... 🔧  
+- **GitHub:** [MichaelMartinez54](https://github.com/Michhoow)  
+- **Twitter:** Working... 🔧  
+
+![img3](https://i.pinimg.com/originals/89/bb/06/89bb06251fb7401e094b1f6d71f3d3f4.gif)
+
+---
 ## Estadísticas de GitHub:
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TuUsuario&show_icons=true&theme=radical)
 
@@ -53,6 +67,7 @@ Desarrollado en **C#**, este minijuego permite seleccionar de forma aleatoria a 
 ## Frase que me inspira:
 > "El conocimiento es una paradoja: cuanto más sabemos, más conscientes somos de la ignorancia que aún nos rodea." 
 
-![laugh](https://i.redd.it/vfyedfr5busa1.gif)
+
+![final](https://cdna.artstation.com/p/assets/images/images/040/756/792/original/clement-baudet-spellbook.gif?1629804361)
 
 ---
