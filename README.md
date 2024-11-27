@@ -65,7 +65,7 @@ Desarrollado en **C#** consola con una interfaz mejorada, este minijuego permite
 ---
 
 ## Frase que me inspira:
-> "El conocimiento es una paradoja: cuanto más sabemos, más conscientes somos de la ignorancia que aún nos rodea." 
+> "El conocimiento es una paradoja: entre mas entendemos mas nos damos cuenta de la inmensidad de nuestra ignorancia." 
 
 
 ![final](https://cdna.artstation.com/p/assets/images/images/040/756/792/original/clement-baudet-spellbook.gif?1629804361)
