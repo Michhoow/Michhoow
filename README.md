@@ -13,8 +13,8 @@
 - **Lenguajes:**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="80" height="80" alt="C# Icon" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="80" height="80" alt="Python Icon" />
+  <img src="https://i.redd.it/vzkhe4s8dlab1.gif" width="80" height="80" alt="C# Icon" />
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80" height="80" alt="Python Icon" />
 </p>
 
 
@@ -53,14 +53,20 @@ Desarrollado en **C#** consola con una interfaz mejorada, este minijuego permite
 
 - **Correo:** Working... 🔧  
 - **LinkedIn:** Working... 🔧  
-- **GitHub:** [MichaelMartinez54](https://github.com/Michhoow)  
+- **GitHub:** [Michhoow](https://github.com/Michhoow)  
 - **Twitter:** Working... 🔧  
 
 ![img3](https://i.pinimg.com/originals/89/bb/06/89bb06251fb7401e094b1f6d71f3d3f4.gif)
 
 ---
-## Estadísticas de GitHub:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TuUsuario&show_icons=true&theme=radical)
+## 📊 Mis estadísticas en GitHub
+
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=Michhoow&show_icons=true&theme=radical)
+
+![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=Michhoow&layout=compact&theme=radical)
+
+![Racha de contribuciones](https://streak-stats.demolab.com?user=Michhoow&theme=radical)
+
 
 ---
 
