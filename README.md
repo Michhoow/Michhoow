@@ -59,17 +59,20 @@ Desarrollado en **C#** con una interfaz mejorada, este minijuego permite selecci
 ![img3](https://i.pinimg.com/originals/89/bb/06/89bb06251fb7401e094b1f6d71f3d3f4.gif)
 
 ---
-## 📊 Mis Stats en GitHub
+
+## 📊 Mis Stats, Lenguajes y Racha de Contribuciones
 
 <div align="center">
-  <!-- Estadísticas generales de GitHub -->
+
+  ### 🏆 Mis Stats  
   <img src="https://github-readme-stats.vercel.app/api?username=Michhoow&show_icons=true&theme=radical" alt="Mis Stats de GitHub" />
 
-  <!-- Lenguajes más usados -->
+  ### 📚 Lenguajes Más Usados  
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Michhoow&layout=compact&theme=radical" alt="Lenguajes más usados" />
 
-  <!-- Racha de contribuciones -->
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Michhoow&theme=radical&hide_border=true" alt="Mi racha de contribuciones" />
+  ### 🔥 Mi Racha de Contribuciones  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Michhoow&theme=radical" alt="Mi racha de contribuciones" />
+
 </div>
 
 ---
