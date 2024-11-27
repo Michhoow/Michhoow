@@ -53,6 +53,6 @@ Desarrollado en **C#**, este minijuego permite seleccionar de forma aleatoria a 
 ## Frase que me inspira:
 > "El conocimiento es una paradoja: cuanto más sabemos, más conscientes somos de la ignorancia que aún nos rodea." 
 
-![laugh](https://i.pinimg.com/originals/d9/e1/41/d9e141c49b6e9e98b973b5b85ceac1c0.gif)
+![laugh](https://i.redd.it/vfyedfr5busa1.gif)
 
 ---
