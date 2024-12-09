@@ -15,6 +15,9 @@
 <p align="center">
   <img src="https://i.redd.it/vzkhe4s8dlab1.gif" width="80" height="80" alt="C# Icon" />
   <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80" height="80" alt="Python Icon" />
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQGOvq5D9WfWKQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1713211411692?e=2147483647&v=beta&t=kPxfXZH0NCEvRsBeYhSTpwhCDyF8tImAVfunWlqeDdY" width="80" height="80" alt="Python Icon" />
+  
+
 </p>
 
 
