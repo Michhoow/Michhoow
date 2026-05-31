@@ -2,7 +2,7 @@
 
 ### Desarrollador Backend de Software | ITLA
 
-Soy **Michael Martinez**, desarrollador backend de software del **ITLA** y estudiante del **ITLA**.  
+Soy **Michael Martinez**, desarrollador backend de software y estudiante del **ITLA**.  
 Me apasiona crear soluciones eficientes, escalables y bien estructuradas.
 
 ---
