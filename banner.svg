@@ -1,0 +1,147 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="void" cx="72%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#151C26"/>
+      <stop offset="0.6" stop-color="#10151C"/>
+      <stop offset="1" stop-color="#0B0F15"/>
+    </radialGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEF1F6"/>
+      <stop offset="0.55" stop-color="#7FA4CF"/>
+      <stop offset="1" stop-color="#4C6A94"/>
+    </linearGradient>
+    <linearGradient id="mtz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF2FE"/>
+      <stop offset="0.45" stop-color="#A9CBF5"/>
+      <stop offset="1" stop-color="#6E9FE0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8FB6E8"/>
+      <stop offset="1" stop-color="#4C6A94" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#DCE9FB" stop-opacity="1"/>
+      <stop offset="0.35" stop-color="#8FB6E8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8FB6E8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6FA3DA" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#6FA3DA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="headglow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- estrella de 4 puntas reutilizable -->
+    <path id="sp" d="M0,-10 L2.2,-2.2 L10,0 L2.2,2.2 L0,10 L-2.2,2.2 L-10,0 L-2.2,-2.2 Z"/>
+    <!-- cometa: estela + cabeza -->
+    <g id="cm">
+      <path d="M-96,-58 L0,0" stroke="url(#tail)" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M-52,-31 L0,0" stroke="#EAF2FE" stroke-width="1.3" stroke-linecap="round" opacity=".9"/>
+      <circle cx="0" cy="0" r="2.4" fill="#FFFFFF" filter="url(#headglow)"/>
+    </g>
+
+    <style>
+      @keyframes tw { 0%,100%{opacity:.3} 50%{opacity:1} }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes fly {
+        0%   { opacity:0; transform: translate(0,0); }
+        3%   { opacity:1; }
+        17%  { opacity:1; transform: translate(340px,205px); }
+        21%  { opacity:0; transform: translate(400px,241px); }
+        100% { opacity:0; transform: translate(400px,241px); }
+      }
+      .t1{animation:tw 2.8s ease-in-out infinite}
+      .t2{animation:tw 3.9s ease-in-out infinite .6s}
+      .t3{animation:tw 2.1s ease-in-out infinite 1.2s}
+      .t4{animation:tw 4.6s ease-in-out infinite .3s}
+      .t5{animation:tw 3.2s ease-in-out infinite 1.8s}
+      .orbit  { transform-origin:790px 140px; animation: spin 26s linear infinite; }
+      .orbit2 { transform-origin:790px 140px; animation: spin 40s linear infinite reverse; }
+      .c { animation: fly 7s linear infinite; }
+      .name { font-family: Georgia,'Times New Roman',serif; font-weight:700; fill:#F2F5FA; }
+      .ital { font-style:italic; fill:url(#mtz); }
+      .role { font-family: Georgia,serif; fill:#AEB9C7; letter-spacing:.4px; }
+      .eyebrow { font-family:'Segoe UI',system-ui,sans-serif; font-weight:600; fill:#8FB6E8; letter-spacing:3px; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="280" rx="16" fill="url(#void)"/>
+
+  <!-- estrellas con forma de estrella -->
+  <g fill="#DCE7F5">
+    <g class="t1" transform="translate(118,58) scale(.34)"><use href="#sp"/></g>
+    <g class="t3" transform="translate(292,36) scale(.22)"><use href="#sp"/></g>
+    <g class="t2" transform="translate(462,74) scale(.40)"><use href="#sp"/></g>
+    <g class="t4" transform="translate(556,28) scale(.20)"><use href="#sp"/></g>
+    <g class="t5" transform="translate(186,224) scale(.30)"><use href="#sp"/></g>
+    <g class="t2" transform="translate(88,152) scale(.24)"><use href="#sp"/></g>
+    <g class="t1" transform="translate(372,238) scale(.36)"><use href="#sp"/></g>
+    <g class="t3" transform="translate(646,204) scale(.26)"><use href="#sp"/></g>
+    <g class="t5" transform="translate(934,232) scale(.40)"><use href="#sp"/></g>
+    <g class="t4" transform="translate(962,74) scale(.24)"><use href="#sp"/></g>
+    <g class="t1" transform="translate(704,86) scale(.30)"><use href="#sp"/></g>
+    <g class="t2" transform="translate(508,152) scale(.22)"><use href="#sp"/></g>
+    <g class="t3" transform="translate(246,122) scale(.28)"><use href="#sp"/></g>
+    <g class="t5" transform="translate(624,52) scale(.20)"><use href="#sp"/></g>
+    <g class="t4" transform="translate(430,182) scale(.26)"><use href="#sp"/></g>
+    <g class="t1" transform="translate(806,246) scale(.20)"><use href="#sp"/></g>
+    <g class="t2" transform="translate(150,96) scale(.18)"><use href="#sp"/></g>
+    <g class="t3" transform="translate(884,180) scale(.22)"><use href="#sp"/></g>
+    <g class="t4" transform="translate(112,272) scale(.20)"><use href="#sp"/></g>
+    <g class="t5" transform="translate(58,258) scale(.24)"><use href="#sp"/></g>
+    <g class="t1" transform="translate(330,164) scale(.18)"><use href="#sp"/></g>
+    <g class="t3" transform="translate(596,244) scale(.24)"><use href="#sp"/></g>
+    <g class="t2" transform="translate(752,246) scale(.20)"><use href="#sp"/></g>
+    <g class="t4" transform="translate(478,110) scale(.18)"><use href="#sp"/></g>
+    <g class="t5" transform="translate(210,44) scale(.22)"><use href="#sp"/></g>
+  </g>
+  <!-- polvo estelar -->
+  <g fill="#9FB0C6">
+    <circle class="t2" cx="342" cy="92" r=".9"/>
+    <circle class="t4" cx="536" cy="212" r=".9"/>
+    <circle class="t1" cx="672" cy="150" r=".8"/>
+    <circle class="t5" cx="146" cy="188" r=".9"/>
+    <circle class="t3" cx="418" cy="46" r=".8"/>
+    <circle class="t2" cx="908" cy="120" r=".9"/>
+    <circle class="t1" cx="268" cy="196" r=".8"/>
+    <circle class="t4" cx="580" cy="120" r=".9"/>
+  </g>
+
+  <!-- cometas rápidos -->
+  <g transform="translate(120,-40)"><g class="c" style="animation-duration:6s;animation-delay:0s"><use href="#cm"/></g></g>
+  <g transform="translate(430,-60)"><g class="c" style="animation-duration:7.5s;animation-delay:1.2s"><use href="#cm"/></g></g>
+  <g transform="translate(660,-30)"><g class="c" style="animation-duration:5.5s;animation-delay:2.6s"><use href="#cm"/></g></g>
+  <g transform="translate(260,-70)"><g class="c" style="animation-duration:8s;animation-delay:4s"><use href="#cm"/></g></g>
+  <g transform="translate(540,-50)"><g class="c" style="animation-duration:6.5s;animation-delay:5.4s"><use href="#cm"/></g></g>
+  <g transform="translate(-40,10)"><g class="c" style="animation-duration:7s;animation-delay:3.1s"><use href="#cm"/></g></g>
+
+  <!-- órbita + estrella central -->
+  <circle cx="790" cy="140" r="120" fill="url(#halo)"/>
+  <g class="orbit">
+    <ellipse cx="790" cy="140" rx="118" ry="118" fill="none" stroke="#3A4759" stroke-width="1" stroke-dasharray="2 6"/>
+    <circle cx="908" cy="140" r="3.4" fill="#8FB6E8"/>
+  </g>
+  <g class="orbit2">
+    <ellipse cx="790" cy="140" rx="92" ry="92" fill="none" stroke="#2A3543" stroke-width="1" stroke-dasharray="1 7"/>
+    <circle cx="698" cy="140" r="2.2" fill="#7FA4CF"/>
+  </g>
+  <g filter="url(#soft)" opacity=".55">
+    <path d="M790 78 L804 140 L790 202 L776 140 Z" fill="#6FA3DA"/>
+    <path d="M728 140 L790 126 L852 140 L790 154 Z" fill="#4C6A94"/>
+  </g>
+  <path d="M790 74 L806 140 L790 206 L774 140 Z" fill="url(#star)"/>
+  <path d="M724 140 L790 124 L856 140 L790 156 Z" fill="url(#star)"/>
+  <circle cx="790" cy="140" r="4" fill="#EEF1F6"/>
+
+  <!-- texto -->
+  <text class="eyebrow" x="62" y="66" font-size="12">BACKEND DEVELOPER · .NET &amp; C#</text>
+  <text class="name" x="60" y="132" font-size="52">Michael <tspan class="ital">Martínez</tspan></text>
+  <line x1="62" y1="152" x2="360" y2="152" stroke="url(#rule)" stroke-width="2"/>
+  <text class="role" x="62" y="188" font-size="17">Clean Architecture · SOLID · REST APIs</text>
+  <text class="role" x="62" y="214" font-size="14" fill="#6C7A8C">Estudiante de Tecnología en Desarrollo de Software · ITLA</text>
+</svg>
