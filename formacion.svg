@@ -1,0 +1,68 @@
+<svg width="1000" height="210" viewBox="0 0 1000 210" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <path id="st" d="M0,-10 L2.2,-2.2 L10,0 L2.2,2.2 L0,10 L-2.2,2.2 L-10,0 L-2.2,-2.2 Z"/>
+    <style>
+      @keyframes tw { 0%,100%{opacity:.25} 50%{opacity:.9} }
+      .a{animation:tw 3.1s ease-in-out infinite}
+      .b{animation:tw 4.2s ease-in-out infinite .8s}
+      .c{animation:tw 2.6s ease-in-out infinite 1.5s}
+      .ttl  { font-family: Georgia,'Times New Roman',serif; font-weight:700; fill:#F2F5FA; }
+      .org  { font-family:'Segoe UI',system-ui,sans-serif; fill:#8FB6E8; }
+      .meta { font-family:'Segoe UI',system-ui,sans-serif; fill:#7C8A9C; }
+      .tag  { font-family:'Consolas',monospace; fill:#A9CBF5; }
+      .eyeb { font-family:'Segoe UI',system-ui,sans-serif; font-weight:600; fill:#4C6A94; letter-spacing:2.5px; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="210" rx="14" fill="#10151C"/>
+
+  <g fill="#DCE7F5">
+    <g class="a" transform="translate(940,28) scale(.2)"><use href="#st"/></g>
+    <g class="b" transform="translate(60,182) scale(.16)"><use href="#st"/></g>
+    <g class="c" transform="translate(500,20) scale(.14)"><use href="#st"/></g>
+  </g>
+
+  <text class="eyeb" x="24" y="26" font-size="11">FORMACIÓN</text>
+
+  <!-- ───────── Tarjeta 1 ───────── -->
+  <rect x="20" y="42" width="466" height="148" rx="12" fill="#141B25" stroke="#223046" stroke-width="1"/>
+  <rect x="20" y="42" width="4" height="148" rx="2" fill="#8FB6E8"/>
+
+  <!-- birrete plano -->
+  <g transform="translate(62,86)">
+    <path d="M0,-11 L22,-2 L0,7 L-22,-2 Z" fill="#8FB6E8"/>
+    <path d="M-13,2 L-13,12 Q0,19 13,12 L13,2 L0,8 Z" fill="#4C6A94"/>
+    <path d="M22,-2 L22,12" stroke="#A9CBF5" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="22" cy="14" r="2.6" fill="#A9CBF5"/>
+  </g>
+
+  <text class="ttl"  x="102" y="82"  font-size="17">Tecnología en Desarrollo de Software</text>
+  <text class="org"  x="102" y="104" font-size="13">ITLA — Instituto Tecnológico de las Américas</text>
+  <text class="meta" x="102" y="126" font-size="12">Desarrollo backend · Bases de datos · Estructuras de datos</text>
+
+  <rect x="102" y="142" width="124" height="24" rx="12" fill="#1B2735" stroke="#2C4A6E" stroke-width="1"/>
+  <text class="tag" x="164" y="158" font-size="11" text-anchor="middle">Rep. Dominicana</text>
+
+  <!-- ───────── Tarjeta 2 ───────── -->
+  <rect x="514" y="42" width="466" height="148" rx="12" fill="#141B25" stroke="#223046" stroke-width="1"/>
+  <rect x="514" y="42" width="4" height="148" rx="2" fill="#6E9FE0"/>
+
+  <!-- chip plano -->
+  <g transform="translate(556,86)">
+    <rect x="-14" y="-14" width="28" height="28" rx="4" fill="#4C6A94"/>
+    <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#A9CBF5"/>
+    <g stroke="#8FB6E8" stroke-width="2" stroke-linecap="round">
+      <path d="M-8,-18 v4 M0,-18 v4 M8,-18 v4"/>
+      <path d="M-8,14 v4 M0,14 v4 M8,14 v4"/>
+      <path d="M-18,-8 h4 M-18,0 h4 M-18,8 h4"/>
+      <path d="M14,-8 h4 M14,0 h4 M14,8 h4"/>
+    </g>
+  </g>
+
+  <text class="ttl"  x="596" y="82"  font-size="17">Python e Inteligencia Artificial</text>
+  <text class="org"  x="596" y="104" font-size="13">Samsung Innovation Campus · FUNDESTEAM</text>
+  <text class="meta" x="596" y="126" font-size="12">200 horas · Machine learning y análisis de datos</text>
+
+  <rect x="596" y="142" width="112" height="24" rx="12" fill="#1B2735" stroke="#2C4A6E" stroke-width="1"/>
+  <text class="tag" x="652" y="158" font-size="11" text-anchor="middle">SIC1898-2025</text>
+</svg>
